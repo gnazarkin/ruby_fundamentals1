@@ -1,5 +1,4 @@
-num=0
-while num <= 100
+(1..100).each do |num|
 	if num % 3 == 0 && num % 5 !=0
 		puts "Bit"
 	elsif num % 3 != 0 && num % 5 ==0
@@ -9,5 +8,4 @@ while num <= 100
 	else
 		puts num
 	end
-	num += 1
 end
